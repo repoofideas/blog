@@ -1,1 +1,1 @@
-Sitemap: https://repoofideas.github.io/sitemap.xml
+Sitemap: https://repoofideas.github.io/blog/sitemap.xml
