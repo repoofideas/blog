@@ -1,3 +1,13 @@
+---
+toc: true
+layout: post
+description: Stick to the problem not the technique
+categories: [Research Rants]
+title: Problem Orientation for the Long Term
+---
+
+# Problem Orientation for the Long Term
+
 It has been a year since I have enrolled in a computer science graduate program. A lot has changed since then, including my rent price(rip my savings), but there's one thing I am repeating exactly the same as last year at this period. I am applying to summer internships amid turndowns. Let's look at a post from the subreddit r/cscareeradvice that describes how internship rejection truly feels.
 
 >What you feel, anytime you begin to think about them; That hurt you can’t exactly articulate into words? It’s okay to feel those feelings. It’s okay to hurt. If necessary, it’s okay to cry. You won’t be any less of a person because you’re experiencing strong emotions.
@@ -11,4 +21,4 @@ A PhD is Not Enough,'* an alarming title for a mere master's student. I want to 
 able to make a long-term success of applying their favorite technique to one problem after another. Eventually the well runs dry. It is the researchers who focus on a significant problem and are willing to bring to it whatever resources are necessary who give the most
 absorbing talks, write the most significant papers, and win grant support most easily. I strongly recommend that you try to teach yourself to be **problem-oriented**, to plan your research projects so that they address important scientific issues regardless of what techniques you and your coworkers will need to use.
 
-Looking at the number of papers coming out of deep learning community these days, learning the new shiny technique will not be marketable for much. Without problem-orientation, it may be nearly impossible to survive in this rapidly evolving field and one must steer away from the juicy trap of technique-orientation.
+Looking at the number of papers coming out of deep learning community these days, learning the new SOTA technique will not be marketable for much. Without problem-orientation, it may be nearly impossible to survive in this rapidly evolving field and one must steer away from the juicy trap of technique-orientation.
