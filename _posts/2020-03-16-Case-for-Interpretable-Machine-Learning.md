@@ -1,3 +1,11 @@
+---
+toc: true
+layout: post
+description: Why should you care about the black box?
+categories: [Interpretable Machine Learning], [Natural Language Processing]
+title: An Example Markdown Post
+---
+
 From video recommendation, autonomous vehicles to predictive medicine, machine learning(ML) systems are ubiquitous in decision making process. ML systems are often labeled as black-box models, since their complexity makes it challenging for human evaluation or understanding. Recently, Geoffrey Hinton, one of the founders of deep learning, tweeted the following:
 
 {% twitter https://twitter.com/geoffreyhinton/status/1230592238490615816?s=20 %}
