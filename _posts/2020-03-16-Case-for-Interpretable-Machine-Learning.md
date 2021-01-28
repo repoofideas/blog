@@ -2,9 +2,11 @@
 toc: true
 layout: post
 description: Why should you care about the black box?
-categories: [Interpretable Machine Learning], [Natural Language Processing]
-title: A Case for Interpretable Machine Learning
+categories: [Interpretable Machine Learning, Transformers]
+title: Case for Interpretable Machine Learning
 ---
+
+# Case for Interpretable Machine Learning
 
 From video recommendation, autonomous vehicles to predictive medicine, machine learning(ML) systems are ubiquitous in decision making process. ML systems are often labeled as black-box models, since their complexity makes it challenging for human evaluation or understanding. Recently, Geoffrey Hinton, one of the founders of deep learning, tweeted the following:
 
