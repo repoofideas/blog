@@ -34,13 +34,13 @@ url: "https://repoofideas.github.io" # the base hostname & protocol for your sit
 #
 # 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
 #
-baseurl: "/repoofideas-blog" # the subpath of your site, e.g. "/blog".
+baseurl: "" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    twitter: https://twitter.com/KrisKPan
+    github: https://github.com/repoofideas
 
 # Set this to true to get LaTeX math equation support
 use_math: 
