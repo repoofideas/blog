@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "How does Amazon recommend products?",
-            "content": "How does Amazon recommend products? 🔎 . When we buy products, we are often recommended by ex . . Acknowledgments .",
-            "url": "https://repoofideas.github.io/blog/app%20development/applied%20ml/2021/05/27/How-does-Amazon-recommend-products.html",
-            "relUrl": "/app%20development/applied%20ml/2021/05/27/How-does-Amazon-recommend-products.html",
+            "title": "How does Amazon recommend products to the users? 🔎",
+            "content": "How does Amazon recommend products to the users? 🔎 . Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one). Recommendation systems are designed to simplify these convoluted process, like a personalized consultant only showing what you need. Since Amazon is the largest online retailer in the world, I became interested in how they tailor personalized recommendations for evergrowing number of products. . : what is up ok : what is up . Acknowledgments .",
+            "url": "https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html",
+            "relUrl": "/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html",
             "date": " • May 27, 2021"
         }
         
