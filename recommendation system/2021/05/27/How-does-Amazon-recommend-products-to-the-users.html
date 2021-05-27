@@ -8,15 +8,15 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="How does Amazon recommend products to the users? 🔎" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Power to the visually impaired" />
-<meta property="og:description" content="Power to the visually impaired" />
+<meta name="description" content="Modeling user’s repetitive behavior pattern for recommendation system" />
+<meta property="og:description" content="Modeling user’s repetitive behavior pattern for recommendation system" />
 <link rel="canonical" href="https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html" />
 <meta property="og:url" content="https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html" />
 <meta property="og:site_name" content="Repo of Ideas" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-05-27T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html","@type":"BlogPosting","headline":"How does Amazon recommend products to the users? 🔎","dateModified":"2021-05-27T00:00:00-05:00","datePublished":"2021-05-27T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html"},"description":"Power to the visually impaired","@context":"https://schema.org"}</script>
+{"url":"https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html","@type":"BlogPosting","headline":"How does Amazon recommend products to the users? 🔎","dateModified":"2021-05-27T00:00:00-05:00","datePublished":"2021-05-27T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html"},"description":"Modeling user’s repetitive behavior pattern for recommendation system","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://repoofideas.github.io/blog/feed.xml" title="Repo of Ideas" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,7 +71,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">How does Amazon recommend products to the users? 🔎</h1><p class="page-description">Power to the visually impaired</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-27T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">How does Amazon recommend products to the users? 🔎</h1><p class="page-description">Modeling user's repetitive behavior pattern for recommendation system</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-27T00:00:00-05:00" itemprop="datePublished">
         May 27, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -94,23 +94,31 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h1"><a href="#how-does-amazon-recommend-products-to-the-users-">How does Amazon recommend products to the users? 🔎</a>
-<ul>
+<li class="toc-entry toc-h3"><a href="#buy-it-again-recommendaiton-feature-from-amazon">‘Buy it Again’ recommendaiton feature from Amazon</a></li>
 <li class="toc-entry toc-h3"><a href="#acknowledgments">Acknowledgments</a></li>
-</ul>
-</li>
-</ul><h1 id="how-does-amazon-recommend-products-to-the-users-">
-<a class="anchor" href="#how-does-amazon-recommend-products-to-the-users-" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does Amazon recommend products to the users? 🔎</h1>
+</ul><p>Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one). Recommendation systems are designed to simplify these convoluted process, like a personalized consultant only showing what you need. Since Amazon is the largest online retailer in the world, I became interested in how their website tailor personalized recommendations for enormous number of products and users. Upon research, I’ve found an interesting paper<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> and patent<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> from Rahul Bhagat an applied scientist at Amazon that used repeat purchase for recommendations.</p>
 
-<p>Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one). Recommendation systems are designed to simplify these convoluted process, like a personalized consultant only showing what you need. Since Amazon is the largest online retailer in the world, I became interested in how they tailor personalized recommendations for evergrowing number of products.</p>
+<h3 id="buy-it-again-recommendaiton-feature-from-amazon">
+<a class="anchor" href="#buy-it-again-recommendaiton-feature-from-amazon" aria-hidden="true"><span class="octicon octicon-link"></span></a>‘Buy it Again’ recommendaiton feature from Amazon</h3>
+<p><img src="../images/amazon/bia.png"></p>
 
-<p><img src="https://render.githubusercontent.com/render/math?math=e%5E%7Bi%20%5Cpi%7D%20=%20-1"> : what is up
+<p><img src="https://render.githubusercontent.com/render/math?math=P_%7BA_%7Bi%7D%7D%5Cleft(t_%7Bk+1%7D=t%20%5Cmid%20t_%7B1,%7D,%20t_%7B2,%7D,%20t_%7B3%7D,%20%5Cldots%20t_%7Bk%7D%5Cright)"> 
 ok
-<img src="https://render.githubusercontent.com/render/math?math=e%5E%7Bi%20%5Cpi%7D%20=%20-1" style="float:left"> : what is up</p>
+<img src="https://render.githubusercontent.com/render/math?math=e%5E%7Bi%20%5Cpi%7D%20=%20-1" style="float:left"></p>
 
 <h3 id="acknowledgments">
 <a class="anchor" href="#acknowledgments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Acknowledgments</h3>
 
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Bhagat, R., Muralidharan, S., Lobzhanidze, A., &amp; Vishwanath, S. (2018, July). Buy it again: Modeling repeat purchase recommendations. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining (pp. 62-70). <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>MuralidharanRahul, S., Bhagat, R. (2021). Personalized network content generation and redirection according to time intervals between repeated instances of behavior based on entity size (US10891678B1). U.S. Patent and Trademark Office. https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=10,891,678.PN.&amp;OS=PN/10,891,678&amp;RS=PN/10,891,678 <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
 
   </div><a class="u-url" href="/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html" hidden></a>
 </article>
