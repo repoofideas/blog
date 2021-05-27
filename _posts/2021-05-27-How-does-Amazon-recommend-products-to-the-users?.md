@@ -7,21 +7,16 @@ title: How does Amazon recommend products to the users? 🔎
 ---
 ### Intro
 
-Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one 🤔). Recommendation systems are designed to simplify these convoluted process, like a personalized consultant. Since Amazon is the largest online retailer in the world, I became interested in how their website tailor personalized recommendations for enormous number of products and users. Upon research, I've found an insightful paper[^1] and patent[^2] from Rahul Bhagat, an applied scientist at Amazon. The introduction of the paper states that used **repeat purchase history** and **product type** for personalized recommendations.
+Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one 🤔). Recommendation systems are designed to simplify these convoluted process, like an expert friend who knows your taste. Since Amazon is the largest online retailer in the world, I became interested in how their website map personalized recommendations between staggering number of products and users. Upon research, I've found an insightful paper[^1] and patent[^2] from Rahul Bhagat, an applied scientist at Amazon. The introduction of the paper states that used **repeat purchase history** and **product type** for personalized recommendations.
 
 
-
-
-### 'Buy it Again' recommendati
-on feature from Amazon
+### 'Buy it Again' recommendation feature from Amazon
 ![bia](https://github.com/repoofideas/blog/blob/master/images/amazon/bia.png?raw=true)
 
+For a customer <img src="https://render.githubusercontent.com/render/math?math=C_{j} = -1" style="float:left"> and a product <img src="https://render.githubusercontent.com/render/math?math=A_{i} = -1" style="float:left"> that has been bought repeatedly for <img src="https://render.githubusercontent.com/render/math?math=k"> times, the following is the first assumption for the modeling.
 
-<img src="https://render.githubusercontent.com/render/math?math=P_{A_{i}}\left(t_{k+1}=t \mid t_{1,}, t_{2,}, t_{3}, \ldots t_{k}\right)" 
-width="110%"> 
+<img src="https://render.githubusercontent.com/render/math?math=P_{A_{i}}\left(t_{k+1}=t \mid t_{1,}, t_{2,}, t_{3}, \ldots t_{k}\right)"> 
 
-ok
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1" style="float:left">
 
 
 ... to be continued(currently updating)
