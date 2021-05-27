@@ -7,14 +7,16 @@ title: How does Amazon recommend products to the users? 🔎
 ---
 ### Intro
 
-Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one 🤔). Recommendation systems are designed to simplify these convoluted process, like an expert friend who knows your taste. Since Amazon is the largest online retailer in the world, I became interested in how their website map personalized recommendations between staggering number of products and users. Upon research, I've found an insightful paper[^1] and a patent[^2] from Rahul Bhagat, an applied scientist at Amazon. It reveals that while majority of the core idea behind Amazon's recommendations are based on similar products that users have bought or searched, more advanced models incoporate **repeat purchase history** and **product type** for personalized recommendations. These advanced models resulted in 7% increase in click-through rate(CTR), which is a huge increase in sales for a ginormous company like Amazon.
+Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one 🤔). Recommendation systems are designed to simplify these convoluted process, like an expert friend who knows your taste. Since Amazon is the largest online retailer in the world, I became interested in learning how their back-end algorithm maps personalized recommendation between staggering number of products and users. Upon research, I've found an insightful paper[^1] and a patent[^2] from Rahul Bhagat, an applied scientist at Amazon. It reveals that while majority of the core idea behind Amazon's recommendations are based on similar products that users have bought or searched, more advanced models incoporate **repeat purchase history** and **product type** for personalized recommendations. These advanced models resulted in 7% increase in click-through rate(CTR), which is a huge increase in sales for a mature company like Amazon.
+
+# ... to be continued(currently updating)
 
 
-### Issues with traditional recommendation models
+### Issues with Traditional Recommendation Models
 
 
 
-### 'Buy it Again' recommendation feature from Amazon
+### 'Buy It Again' Recommendation Feature from Amazon
 <!-- ![bia](https://github.com/repoofideas/blog/blob/master/images/amazon/bia.png?raw=true) -->
 
 For a customer <img src="https://render.githubusercontent.com/render/math?math=C_{j} = -1" style = 'vertical-align:middle'> and a product <img src="https://render.githubusercontent.com/render/math?math=A_{i} = -1" style = 'vertical-align:middle'> that has been bought repeatedly for <img src="https://render.githubusercontent.com/render/math?math=k"  style = 'vertical-align:middle'> times, the following is the first assumption for the modeling.
@@ -23,7 +25,7 @@ For a customer <img src="https://render.githubusercontent.com/render/math?math=C
 
 For the following assumptions we are 
 
-... to be continued(currently updating)
+
 
 ### Acknowledgments
 [^1]:Bhagat, R., Muralidharan, S., Lobzhanidze, A., & Vishwanath, S. (2018, July). Buy it again: Modeling repeat purchase recommendations. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 62-70).
