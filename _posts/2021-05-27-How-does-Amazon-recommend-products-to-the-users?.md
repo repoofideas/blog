@@ -11,13 +11,13 @@ Before you buy a product, a typical decision process may include comparison of s
 
 
 ### 'Buy it Again' recommendation feature from Amazon
-![bia](https://github.com/repoofideas/blog/blob/master/images/amazon/bia.png?raw=true)
+<!-- ![bia](https://github.com/repoofideas/blog/blob/master/images/amazon/bia.png?raw=true) -->
 
-For a customer <img src="https://render.githubusercontent.com/render/math?math=C_{j} = -1" style="float:left"> and a product <img src="https://render.githubusercontent.com/render/math?math=A_{i} = -1" style="float:left"> that has been bought repeatedly for <img src="https://render.githubusercontent.com/render/math?math=k"> times, the following is the first assumption for the modeling.
+For a customer <img src="https://render.githubusercontent.com/render/math?math=C_{j} = -1" style = 'vertical-align:middle'> and a product <img src="https://render.githubusercontent.com/render/math?math=A_{i} = -1" style = 'vertical-align:middle'> that has been bought repeatedly for <img src="https://render.githubusercontent.com/render/math?math=k"  style = 'vertical-align:middle'> times, the following is the first assumption for the modeling.
 
 <img src="https://render.githubusercontent.com/render/math?math=P_{A_{i}}\left(t_{k+1}=t \mid t_{1,}, t_{2,}, t_{3}, \ldots t_{k}\right)"> 
 
-
+For the following assumptions we are 
 
 ... to be continued(currently updating)
 
