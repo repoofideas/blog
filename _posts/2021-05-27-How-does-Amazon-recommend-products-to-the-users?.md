@@ -17,7 +17,7 @@ Before you buy a product, a typical decision process may include comparison of s
 
 
 <img src="https://render.githubusercontent.com/render/math?math=P_{A_{i}}\left(t_{k+1}=t \mid t_{1,}, t_{2,}, t_{3}, \ldots t_{k}\right)" 
-width="150%"> 
+width="110%"> 
 ok
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1" style="float:left">
 
