@@ -10,13 +10,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Modeling user’s repetitive behavior pattern for recommendation system" />
 <meta property="og:description" content="Modeling user’s repetitive behavior pattern for recommendation system" />
-<link rel="canonical" href="https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html" />
-<meta property="og:url" content="https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html" />
+<link rel="canonical" href="https://repoofideas.github.io/blog/recommendation%20system/2021/05/28/How-does-Amazon-recommend-products-to-the-users.html" />
+<meta property="og:url" content="https://repoofideas.github.io/blog/recommendation%20system/2021/05/28/How-does-Amazon-recommend-products-to-the-users.html" />
 <meta property="og:site_name" content="Repo of Ideas" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-27T00:00:00-05:00" />
+<meta property="article:published_time" content="2021-05-28T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html","@type":"BlogPosting","headline":"How does Amazon recommend products to the users? 🔎","dateModified":"2021-05-27T00:00:00-05:00","datePublished":"2021-05-27T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://repoofideas.github.io/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html"},"description":"Modeling user’s repetitive behavior pattern for recommendation system","@context":"https://schema.org"}</script>
+{"url":"https://repoofideas.github.io/blog/recommendation%20system/2021/05/28/How-does-Amazon-recommend-products-to-the-users.html","@type":"BlogPosting","headline":"How does Amazon recommend products to the users? 🔎","dateModified":"2021-05-28T00:00:00-05:00","datePublished":"2021-05-28T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://repoofideas.github.io/blog/recommendation%20system/2021/05/28/How-does-Amazon-recommend-products-to-the-users.html"},"description":"Modeling user’s repetitive behavior pattern for recommendation system","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://repoofideas.github.io/blog/feed.xml" title="Repo of Ideas" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,8 +71,8 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">How does Amazon recommend products to the users? 🔎</h1><p class="page-description">Modeling user's repetitive behavior pattern for recommendation system</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-27T00:00:00-05:00" itemprop="datePublished">
-        May 27, 2021
+    <h1 class="post-title p-name" itemprop="name headline">How does Amazon recommend products to the users? 🔎</h1><p class="page-description">Modeling user's repetitive behavior pattern for recommendation system</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-28T00:00:00-05:00" itemprop="datePublished">
+        May 28, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -95,7 +95,7 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
 <li class="toc-entry toc-h3"><a href="#intro">Intro</a></li>
-<li class="toc-entry toc-h1"><a href="#-to-be-continuedcurrently-updating">… to be continued(currently updating)</a>
+<li class="toc-entry toc-h1"><a href="#-to-be-continuedcurrently-updating-528">… to be continued(currently updating 5/28)</a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#issues-with-traditional-recommendation-models">Issues with Traditional Recommendation Models</a></li>
 <li class="toc-entry toc-h3"><a href="#buy-it-again-recommendation-feature-from-amazon">‘Buy It Again’ Recommendation Feature from Amazon</a></li>
@@ -107,8 +107,8 @@ window.onload = wrap_img;
 
 <p>Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one 🤔). Recommendation systems are designed to simplify these convoluted process, like an expert friend who knows your taste. Since Amazon is the largest online retailer in the world, I became interested in learning how their back-end algorithm maps personalized recommendation between staggering number of products and users. Upon research, I’ve found an insightful paper<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> and a patent<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> from Rahul Bhagat, an applied scientist at Amazon. It reveals that while majority of the core idea behind Amazon’s recommendations are based on similar products that users have bought or searched, more advanced models incoporate <strong>repeat purchase history</strong> and <strong>product type</strong> for personalized recommendations. These advanced models resulted in 7% increase in click-through rate(CTR), which is a huge increase in sales for a mature company like Amazon.</p>
 
-<h1 id="-to-be-continuedcurrently-updating">
-<a class="anchor" href="#-to-be-continuedcurrently-updating" aria-hidden="true"><span class="octicon octicon-link"></span></a>… to be continued(currently updating)</h1>
+<h1 id="-to-be-continuedcurrently-updating-528">
+<a class="anchor" href="#-to-be-continuedcurrently-updating-528" aria-hidden="true"><span class="octicon octicon-link"></span></a>… to be continued(currently updating 5/28)</h1>
 
 <h3 id="issues-with-traditional-recommendation-models">
 <a class="anchor" href="#issues-with-traditional-recommendation-models" aria-hidden="true"><span class="octicon octicon-link"></span></a>Issues with Traditional Recommendation Models</h3>
@@ -137,7 +137,7 @@ window.onload = wrap_img;
   </ol>
 </div>
 
-  </div><a class="u-url" href="/blog/recommendation%20system/2021/05/27/How-does-Amazon-recommend-products-to-the-users.html" hidden></a>
+  </div><a class="u-url" href="/blog/recommendation%20system/2021/05/28/How-does-Amazon-recommend-products-to-the-users.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
