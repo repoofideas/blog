@@ -6,14 +6,13 @@ categories: [Recommendation System]
 title: How does Amazon recommend products to the users? 🔎
 ---
 
-Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one). Recommendation systems are designed to simplify these convoluted process, like a personalized consultant only showing what you need. Since Amazon is the largest online retailer in the world, I became interested in how their website tailor personalized recommendations for enormous number of products and users. Upon research, I've found an interesting paper[^1] and patent[^2] from Rahul Bhagat an applied scientist at Amazon that used repeat purchase for recommendations.
+Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one). Recommendation systems are designed to simplify these convoluted process, like a personalized consultant. Since Amazon is the largest online retailer in the world, I became interested in how their website tailor personalized recommendations for enormous number of products and users. Upon research, I've found an interesting paper[^1] and patent[^2] from Rahul Bhagat an applied scientist at Amazon that used repeat purchase for recommendations.
 
 
 
 
 ### 'Buy it Again' recommendaiton feature from Amazon
-<img src="../images/amazon/bia.png"> 
-
+![bia](../images/amazon/bia.png)
 
 
 <img src="https://render.githubusercontent.com/render/math?math=P_{A_{i}}\left(t_{k+1}=t \mid t_{1,}, t_{2,}, t_{3}, \ldots t_{k}\right)"> 
