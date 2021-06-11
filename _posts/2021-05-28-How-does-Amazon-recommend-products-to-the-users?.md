@@ -9,7 +9,7 @@ title: How does Amazon recommend products to the users? 🔎
 
 Before you buy a product, a typical decision process may include comparison of similar products, browsing multiple brands, or consulting an expert(if you are lucky enough to know one 🤔). Recommendation systems are designed to simplify these convoluted process, like an expert friend who knows your taste. Since Amazon is the largest online retailer in the world, I became interested in learning how their back-end algorithm maps personalized recommendation between staggering number of products and users. Upon research, I've found an insightful paper[^1] and a patent[^2] from Rahul Bhagat, an applied scientist at Amazon. It reveals that while majority of the core idea behind Amazon's recommendations are based on similar products that users have bought or searched, more advanced models incoporate **repeat purchase history** and **product type** for personalized recommendations. These advanced models resulted in 7% increase in click-through rate(CTR), which is a huge increase in sales for a mature company like Amazon.
 
-# ... to be continued(currently updating 5/28)
+# ... to be update 6/21
 
 
 ### Issues with Traditional Recommendation Models
