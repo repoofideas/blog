@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: Why should you care about the black box?
 categories: [Interpretable Machine Learning, Transformers]
 title: Case for Interpretable Machine Learning
