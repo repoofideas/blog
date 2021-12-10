@@ -7,8 +7,6 @@ categories: [Machine Learning, Socioeconomics, Music Production]
 title: GPT3, Gopher, and 부캐(Sub Account)
 ---
 
-# GPT3, Gopher, and 부캐(Sub-Account)
-
 There's been a bit of a hiatus since my last post, but the recent paper from Deepmind motivated me to write up a quick post.
 {% twitter https://twitter.com/KrisKPan/status/1469134269306097669?s=20  %}
 
