@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: Why should you have a 부캐(boo-keh;sub account)
 categories: [Machine Learning, Socioeconomics, Music Production]
 title: GPT3, Gopher, and 부캐(Sub Account)
