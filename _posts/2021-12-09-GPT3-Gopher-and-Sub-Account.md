@@ -10,7 +10,8 @@ title: GPT3, Gopher, and 부캐(Sub Account)
 # GPT3, Gopher, and 부캐(Sub-Account)
 
 There's been a bit of a hiatus since my last post, but the recent paper from Deepmind motivated me to write up a quick post.
-{% https://twitter.com/KrisKPan/status/1469137329520525316?s=20 %}
+{% twitter https://twitter.com/KrisKPan/status/1469137329520525316?s=20 %}
+
 You can check the original [Deepmind Blog](https://deepmind.com/blog/article/language-modelling-at-scale) post to see the original graph.
 
 Looking at the rate of innovation from GP3 to Gopher against human benchmark, it seems like a huge portion of white collar labor will be surrogated by pretrained 
