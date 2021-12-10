@@ -12,7 +12,7 @@ title: GPT3, Gopher, and 부캐(Sub Account)
 There's been a bit of a hiatus since my last post, but the recent paper from Deepmind motivated me to write up a quick post.
 {% twitter https://twitter.com/KrisKPan/status/1469134269306097669?s=20  %}
 
-You can check the original [Deepmind Blog](https://deepmind.com/blog/article/language-modelling-at-scale) post to see the original graph.
+You can check the [Deepmind Blog Post](https://deepmind.com/blog/article/language-modelling-at-scale) to see the original graph.
 
 Looking at the rate of innovation from GP3 to Gopher against human benchmark, it seems like a huge portion of white collar labor will be surrogated by pretrained 
 models within the next decade. We are likely going to see huge socioeconomic changes and I believe vast majority of people are not ready for such drastic changes. 
