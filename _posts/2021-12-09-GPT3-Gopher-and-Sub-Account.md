@@ -12,7 +12,7 @@ There's been a bit of a hiatus since my last post, but the recent paper from Dee
 
 You can check the [Deepmind Blog Post](https://deepmind.com/blog/article/language-modelling-at-scale) to see the original graph.
 
-Looking at the rate of innovation from GPT-3 to Gopher against human benchmark, it seems like a huge portion of white collar labor will be surrogated by pretrained 
+Looking at the rate of innovation from GPT-3 to Gopher against human benchmark, it seems like a huge portion of white collar labor performed by human will be reduced by pretrained 
 models within the next decade. We are likely going to see huge socioeconomic changes and I believe vast majority of people are not ready for such drastic transformation. 
 Personally, I started as an accounting major entering college and it took me 3 years to transition into machine learning engineering career.
 This was with very supportive parents and great mentors helping the transition. I would be naive to think that most people would have that kind of opportunity. 
