@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: Power to the visually impaired
 categories: [App Development, Applied ML]
 title: Introducing My Book Reader
