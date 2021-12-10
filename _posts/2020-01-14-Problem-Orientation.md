@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: Stick to the problem not the technique
 categories: [Research Rants]
 title: Problem Orientation for the Long Term
