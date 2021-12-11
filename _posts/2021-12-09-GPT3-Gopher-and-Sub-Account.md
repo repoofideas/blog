@@ -21,7 +21,7 @@ This is when I realized I was tying much of my self-worth and identity to my occ
 This may sound a bit off tangent but there's a phrase called '부캐(sub-character)' in Korean which originated in the gaming community.
 It's a term when players make a second account to play more casually than their main account. Now that term has evolved to refer to 
 people who develop their hobby or gimmick extensively to share it on social media for engagement and potentially create a second income. 
-This sounds like a valid strategy worth considering especially since most people garner much of their self-identity and income from our occupation. 
-I have personally been exploring a few hobbies that do not involve staring at a monitor(which I do more than enough for my main job) like music production & jazz piano. 
+This works sort of like a hedging strategy against job automation risk by being involved in multiple industries. 
+I have personally been exploring a few hobbies that do not involve staring at a screen(which I do more than enough for my main job) like jazz piano. 
 I am at no level to create any income currently but I hope to share my progress shortly. If you are reading this, I encourage you to actively explore in
 creating a 부캐(pronounced as boo-keh).
