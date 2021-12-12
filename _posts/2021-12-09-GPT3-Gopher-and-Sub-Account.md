@@ -12,17 +12,16 @@ There's been a bit of a hiatus since my last post, but the recent paper from Dee
 
 You can check the [Deepmind Blog Post](https://deepmind.com/blog/article/language-modelling-at-scale) to see the original graph.
 
-Looking at the rate of innovation from GPT-3 to Gopher against the human benchmark, it seems like a huge portion of white-collar labor performed by humans will be reduced by pretrained models within the next decade. We are likely going to see huge socioeconomic changes and I believe the vast majority of people are not ready for such drastic transformation. 
-Personally, it took me 4 years to transition into a machine learning engineering career after my military service.
-This was with very supportive parents and great mentors helping the transition. It would be naive to think that most people would have that kind of opportunity
-so how will people adapt to the shortage of demand for human labor? Even I can't guarantee I would be employable in the next few decades if the current trend continues.
-This is when I realized I was tying much of my self-worth and identity to my occupation.
+Looking at the rate of innovation from GPT-3 to Gopher against the human benchmark, it seems like a huge portion of white-collar labor performed by humans will be reduced by pretrained models within the next decade. When BERT was introduced in 2019 and presented groundbreaking performances, it had 340 million parameters, after 2 years, Gopher has 280 billion parameters, which is an improvement of roughly 1000x.
+It would be naive to expect that people would have the resources necessary to be adaptive in this increasingly scarce market for human labor. Macro solution
+may involve social safety net or education reform but that is way out of the scope of this post. I would like to suggest a micro strategy popularized in
+Korea.
 
 This may sound a bit off tangent but there's a phrase called '부캐(sub-character)' in Korean which originated in the gaming community.
 It's a term when players make a second account to play more casually than their main account. Now that term has evolved to refer to 
-people who develop their hobby or gimmick extensively to share it on social media for engagement and potentially create a second income. 
+people who develop their hobby or gimmick extensively on social media for engagement and potentially create a second income. 
 This works sort of like a hedging strategy against job automation risk by being involved in multiple industries. This is not neccessarily about
-the income but having self-identity and social engagement through the job.
+the income but having a platform for social engagement through their hobby/side job.
 I have personally been exploring a few hobbies that do not involve staring at a screen(which I do more than enough for my main job) like jazz piano. 
-I am at no level to create any income currently but I hope to share my progress shortly. If you are reading this, I encourage you to actively explore in
+I am at no level to share it currently but I hope to show my progress shortly. If you are reading this, I encourage you to actively explore in
 creating a 부캐(pronounced as boo-keh).
