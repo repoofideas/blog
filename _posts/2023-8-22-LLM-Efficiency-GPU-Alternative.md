@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: Exploring Open Problems in ML Research
 categories: [Research, Language Models]
-title: LLM Research at a Hardware Company: Efficiency and GPU Alternatives
+title: LLM Research at a Hardware Company; Efficiency and GPU Alternatives
 ---
 
 # LLM Research at a Hardware Company: Striving for Efficiency and Developing GPU Alternatives
